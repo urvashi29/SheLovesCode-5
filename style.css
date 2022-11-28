@@ -1,0 +1,100 @@
+/* position */
+.style-static {
+  /* position: static; */
+  border: 1px solid black;
+  margin-top: 20px;
+
+  /* top, right, bottom, left is not available in position: static; */
+  /* top: 20px;
+    bottom: 20px;
+    right: 20px;
+    left: 20px; */
+}
+
+.style-relative {
+  position: relative;
+  background-image: url("facebook.png");
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+  top: 20px;
+  bottom: 20px;
+  right: 20px;
+  left: 20px;
+}
+
+.style-absolute {
+  position: absolute;
+  background-color: pink;
+  border: 1px solid black;
+  top: 40px;
+  bottom: 20px;
+  right: 20px;
+  left: 30px;
+}
+
+.style-sticky {
+  position: sticky;
+  background-color: teal;
+  border: 1px solid black;
+  top: 0px;
+  left: 0px;
+  right: 0;
+  bottom: 0;
+}
+
+.style-fixed {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0;
+  bottom: 0;
+  background-color: orange;
+  height: 80px;
+}
+
+/* overflow */
+#style-overflow {
+  width: 100px;
+  height: 100px;
+  background-color: teal;
+  border: 1px solid black;
+
+  overflow: hidden;
+
+  /* by default */
+  /* overflow: visible;
+
+    overflow: scroll;
+
+    overflow: auto; */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* float */
+.item {
+  border: 1px solid black;
+  width: 31%;
+  float: left;
+  padding: 10px;
+  margin: 10px;
+}
+
+.items {
+  border: 1px solid black;
+  padding: 10px;
+  width: 23%;
+  float: left;
+  margin: 10px;
+}
+
+.item-box {
+  border: 1px solid black;
+  padding: 10px;
+  width: 48%;
+  float: left;
+  margin: 10px;
+}
